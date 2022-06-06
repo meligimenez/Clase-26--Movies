@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 let sucursales = {
-    db:'../data/theaters.json',
+    db:'./data/theaters.json',
     titulo: 'Nuestras Salas',
     leerJSON: function(){
         let theatersJSON = fs.readFileSync(this.db, 'utf-8');
