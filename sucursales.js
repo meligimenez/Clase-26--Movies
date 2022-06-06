@@ -16,9 +16,6 @@ let sucursales = {
         return theaters.theaters
         }
         
-    }
-
-
-
-
+    };
+    
 module.exports = sucursales
